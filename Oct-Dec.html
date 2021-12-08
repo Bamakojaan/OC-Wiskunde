@@ -11,17 +11,23 @@
 </style>
 <body>
 
-<h1> Octaal - Decimaal </h1>
+<h1> Getallen omzetten </h1>
 
 <h4> Octaal naar Decimaal </h4>
 <input type="textbox" name="Octaal" id="Octaal">
 <button onclick="OtoD();"> Calculate </button>
-<p id="Decimaaloplossing"> </p>
+<p id="ODecimaaloplossing"> </p>
 
 <h4> Decimaal naar Octaal </h4>
 <input type="textbox" name="Decimaal" id="Decimaal">
-<button onclick="DtoO();"> Calculate </button>
+<button onclick="DtoO(); DtoB();"> Calculate </button>
 <p id="Octaaloplossing"> </p>
+<p id="Binairoplossing"></p>
+
+<h4> Binair naar Decimaal </h4>
+<input type="textbox" name="Binair" id="Binair">
+<button onclick="BtoD();"> Calculate </button>
+<p id="BDecimaaloplossing"></p>
 
 <script src="Oct-Dec.js"></script>
 </body>
